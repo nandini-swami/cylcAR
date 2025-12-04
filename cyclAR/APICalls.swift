@@ -15,7 +15,7 @@ final class APICalls {
     static let instance = APICalls()
         private init() {}
 
-        private let apiKey = ""
+        private let apiKey = "-"
     
     // Addy to addy
     func getBikeDirections(origin: String, destination: String,
